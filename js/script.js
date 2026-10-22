@@ -49,7 +49,7 @@ const memberProfiles = {
     ["Ni-ki", "Nishimura Riki", "9 Desember 2005", "Dancer, performer", "Berasal dari Jepang dan dikenal dengan kemampuan menarinya.", "enhypen-niki.jpg"]
   ],
   evan: [
-    ["EVAN", "Lee Hee-seung", "15 Oktober 2001", "Solois, vokalis", "Sebelumnya dikenal sebagai Heeseung dari ENHYPEN. Periksa sumber resmi untuk pembaruan aktivitas solo.", "evan.jpg"]
+    ["EVAN", "Lee Hee-seung", "15 Oktober 2001", "Solois, vokalis", "Sebelumnya dikenal sebagai Heeseung dari ENHYPEN. Evan melanjutkan kariernya sebagai solois.", "evan.jpg"]
   ],
   cortis: [
     ["MARTIN", "Martin Edwards (nama Korea: Park Woo-joo)", "20 Maret 2008", "Leader", "Member CORTIS yang dikenal sebagai leader; ikut dalam proses kreatif grup.", "cortis-martin.jpg"],
