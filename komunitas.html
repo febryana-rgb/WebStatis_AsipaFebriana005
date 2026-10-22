@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOMUNITAS MY FAVORIT K-POP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">💜 My Favorite K-Pop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Buka menu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="daftarkonten.html">Daftar Konten</a></li>
+                    <li class="nav-item"><a class="nav-link" href="detailartikel.html">Detail Artikel</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="komunitas.html">Komunitas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+<main class="container section">
+  <div class="section-heading">
+    <span class="eyebrow">Find your fandom ✨</span>
+    <h1>My K-Pop Community</h1>
+    <p>Pilih komunitas idol favoritmu, lalu berbagi cerita dan berdiskusi dengan sesama penggemar.</p>
+  </div>
+  <section class="community-picker mb-4">
+    <label for="communitySelect" class="form-label fw-semibold">Pilih komunitas</label>
+    <select id="communitySelect" class="form-select">
+      <option value="BTS">💜 BTS Community</option>
+      <option value="TXT">⭐ TXT Community</option>
+      <option value="SEVENTEEN">💎 SEVENTEEN Community</option>
+      <option value="ENHYPEN">🌙 ENHYPEN Community</option>
+      <option value="EVAN">🎤 EVAN Community</option>
+      <option value="CORTIS">🎧 CORTIS Community</option>
+    </select>
+    <p class="form-text mb-0">Daftar diskusi akan menampilkan postingan sesuai komunitas yang dipilih.</p>
+    </section>
+    <div class="community-layout">
+    <section class="post-form-card">
+      <div class="community-title-icon">💬</div>
+      <h2 id="communityHeading">BTS Community</h2>
+      <p class="muted">Bagikan cerita, pendapat, atau rekomendasi lagu.</p>
+      <form id="postForm">
+        <div class="mb-3"><label for="postName" class="form-label">Nama / nickname</label><input class="form-control" id="postName" maxlength="35" placeholder="Contoh: purple_moon" required></div>
+        <div class="mb-3"><label for="postText" class="form-label">Postingan</label><textarea class="form-control" id="postText" rows="4" maxlength="600" placeholder="Apa yang ingin kamu bagikan?" required></textarea><div class="form-text">Maksimal 600 karakter. Jangan bagikan informasi pribadi.</div></div>
+        <button class="btn btn-purple" type="submit">Kirim Postingan ✨</button>
+        <p id="postNotice" class="form-notice" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="feed-section">
+        <div class="feed-heading">
+            <h2>Obrolan Penggemar</h2>
+            <p class="muted">Diskusi terbaru di komunitas yang dipilih.</p>
+        </div>
+      <div id="postFeed" class="post-feed" aria-live="polite"></div>
+    </section>
+    </div>
+    <div class="community-rules mt-4">
+        <strong>💜 Aturan komunitas</strong>
+        <p class="mb-0">Saling menghargai, hindari komentar kasar, jangan menyebarkan informasi pribadi, dan pastikan informasi yang dibagikan tidak menyesatkan.</p>
+    </div>
+</main>
+<footer>
+        <div class="container">
+            <p>&copy; 2026 My Favorite K-Pop · Dibuat dengan 💜 untuk penggemar K-Pop.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

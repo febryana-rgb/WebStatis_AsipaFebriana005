@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAIL ARTIKEL MY FAVORIT K-POP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">💜 My Favorite K-Pop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="daftarkonten.html">Daftar Konten</a></li>
+                <li class="nav-item"><a class="nav-link active" href="detailartikel.html">Detail Artikel</a></li>
+                <li class="nav-item"><a class="nav-link" href="komunitas.html">Komunitas</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="container section">
+        <article class="detail-article">
+            <a href="daftarkonten.html" class="back-link">Kembali ke Daftar Konten</a>
+            <div class="detail-hero">
+                <div id="detailIcon" class="detail-icon">💜</div>
+                <div><span id="detailTag" class="tag">Profil grup</span>
+                    <h1 id="detailTitle">Mengenal BTS</h1>
+                    <p id="detailIntro" class="lead">Mengenal idol lebih dekat melalui musik dan cerita mereka.</p>
+                </div>
+            </div>
+            <div id="detailBody" class="article-body">
+                <p>Setiap grup dan idol memiliki karakter, perjalanan, dan karya yang membuat penggemar tertarik untuk mengenalnya.</p>
+            </div>
+            <section class="member-section mt-5" aria-labelledby="memberHeading">
+                <div class="section-heading mb-4">
+                    <span class="eyebrow">Meet the members</span>
+                    <h2 id="memberHeading">Kenali Member</h2>
+                    <p>Foto, nama asli, tanggal lahir, peran, dan fakta menarik setiap member.</p>
+                </div>
+                <div id="memberGrid" class="member-grid"></div>
+            </section>
+            <div class="article-note">
+                <strong>💌 Punya pendapat sendiri?</strong>
+                <p>Yuk, lanjutkan obrolannya di halaman komunitas.</p>
+                <a class="btn btn-purple" href="komunitas.html">Diskusi di Komunitas</a>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Favorite K-Pop · Dibuat dengan 💜 untuk penggemar K-Pop.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
